@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: wheat;
+    overflow: auto;
+}
+.item-1 {
+    background-color: tan;
+    /* align-self: start; */
+}
+.item-2 {
+    background-color: teal;
+    order: 1;
+}
+.item-3 {
+    background-color: tomato;
+}
+.item {
+    /* flex-basis: 40%;
+    flex-shrink: 0; */
+    flex: 1 0 33.3333%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    /* 把padding跟border納入尺寸計算 */
+}
